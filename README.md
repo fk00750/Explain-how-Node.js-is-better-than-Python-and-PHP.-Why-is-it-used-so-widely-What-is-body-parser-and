@@ -72,7 +72,7 @@ Let's first divide the question into two sections to understand it better
 
  <b>Note</b> - Speed, scalability, and performance are the three parameters used in the comparison
 
-- Node.js uses a v8 engine to convert the javascript code into machine code. In a sense, V8 is like an interpreter that converts script code to machine code. You can refer to the v8 documentation for further details 
+- Node.js uses a v8 engine to convert the javascript code into machine code. In a sense, V8 is like an interpreter that converts script code to machine code. You can refer to the [v8 documentation](https://v8.dev/docs) for further details 
 - In contrast to Python and PHP, Node.js supports a multi-threaded architecture and can handle multiple incoming requests at the same time. This makes the program more scalable than both ( Event-driven architecture is a story for another day ).
 
 In light of these two points, you can now see why node.js is more efficient than python and PHP since it utilizes a v8 engine, follows an event-driven architecture which makes it more scalable, and it can deal with real-time events.
